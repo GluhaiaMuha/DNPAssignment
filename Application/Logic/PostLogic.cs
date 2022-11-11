@@ -9,7 +9,13 @@ public class PostLogic : IPostLogic
 {
     private IPostDao postDao;
     private IUserDao userDao;
-    
+
+    public PostLogic(IPostDao postDao, IUserDao userDao)
+    {
+        this.postDao = postDao;
+        this.userDao = userDao;
+    }
+
     public async Task<Post> CreatePostAsync(PostCreationDTO dto)
     {
         User? user = await userDao.GetByUsername(dto.userName);

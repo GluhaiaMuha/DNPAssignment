@@ -1,0 +1,96 @@
+﻿@page "/CreatePosts"
+@using HTTPClients.ClientInterfaces
+@using System.Security.Claims
+@using global::Shared.Models
+@using global::Shared.DTOs
+@inject IPostsService postService
+@inject NavigationManager navMgr
+<h3>Create a Post</h3>
+
+<AuthorizeView>
+    <Authorized>
+        <div class="container">
+            <label><b>Title</b></label>
+            <input type="text" @bind="title" placeholder="" required>
+        
+            <label><b>Body</b></label>
+            <input type="text" @bind="body" placeholder="">
+        
+            <button @onclick="Create" class="acceptbtn">Create Post</button>
+          
+            @if (!string.IsNullOrEmpty(msg))
+            {
+                <div class="label" style="text-align: center">
+                    <label style="color:red">@msg</label>
+                </div>
+            }
+        </div>
+
+    </Authorized>
+</AuthorizeView>
+@code {
+    [CascadingParameter]
+    private Task<AuthenticationState> AuthenticationStateTask { get; set; }
+    
+    private string title = "";
+    private string body = "";
+    private string username { get; set; }
+    private string msg = "";
+
+    private async Task Create()
+    {
+        
+        var authState = await AuthenticationStateTask;
+        ClaimsPrincipal principal = authState.User;
+        username = (from claim in principal.Claims where claim.Type == "Username" select claim.Value).FirstOrDefault();
+        msg = "";
+
+        try
+        {
+            Post post = await postService.CreatePostAsync(new PostCreationDTO(title, body, username));
+            Console.WriteLine("Message created");
+            title = "";
+            body = "";
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}
+
+<style>
+form {
+  border: 3px solid #f1f1f1;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+}
+</style>

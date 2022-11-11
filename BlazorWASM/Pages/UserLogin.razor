@@ -2,7 +2,7 @@
 @inject Auth.IAuthService authService
 @inject NavigationManager navMgr
 
-<h3>UserLogin</h3>
+<h3>Login</h3>
 
 <AuthorizeView>
     <NotAuthorized>
@@ -13,7 +13,9 @@
   <label><b>Password</b></label>
   <input type="password" @bind="password" placeholder="Choose a Password">
 
-  <button @onclick="SubmitLogin" class="acceptbtn">Register</button>
+  <button @onclick="SubmitLogin" class="acceptbtn">Log In</button>
+  
+  <a href="RegisterClientPage">Click here to register</a>
   
   <span style="color: red">@errorMessage</span>
 </div>

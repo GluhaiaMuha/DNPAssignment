@@ -16,7 +16,10 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7087") });
 
 builder.Services.AddScoped<IUserService, UserHttpClient>();
+builder.Services.AddScoped<IPostsService, PostsHttpClient>();
 builder.Services.AddScoped<IAuthService, JwtAuthService >();
+
+
 
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthProvider>();
 builder.Services.AddScoped<IAuthorizationPolicyProvider, DefaultAuthorizationPolicyProvider>();
@@ -24,3 +27,4 @@ builder.Services.AddScoped<IAuthorizationPolicyProvider, DefaultAuthorizationPol
 
 builder.Services.AddAuthorizationCore();
 await builder.Build().RunAsync();
+

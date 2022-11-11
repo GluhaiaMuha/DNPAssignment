@@ -1,44 +1,19 @@
 {
   "Users": [
     {
-      "userName": "string",
-      "password": "string"
-    },
+      "userName": "Marius",
+      "password": "marius"
+    }
+  ],
+  "Posts": [
     {
-      "userName": "jsandjasd",
-      "password": "kdasndj"
-    },
-    {
-      "userName": "Mariusssss",
-      "password": "string"
-    },
-    {
-      "userName": "dsadasd",
-      "password": "string"
-    },
-    {
-      "userName": "dsadasdasd",
-      "password": "string"
-    },
-    {
-      "userName": "dasdasfdas",
-      "password": "string"
-    },
-    {
-      "userName": "dasdasdasd",
-      "password": "string"
-    },
-    {
-      "userName": "strdsaing",
-      "password": "string"
-    },
-    {
-      "userName": "dasdasd",
-      "password": "dasdasdasd"
-    },
-    {
-      "userName": "Roberts",
-      "password": "qwerty"
+      "userName": {
+        "userName": "Marius",
+        "password": "marius"
+      },
+      "title": "300 bucks",
+      "body": "Fisting is 300 bucks",
+      "postId": 1
     }
   ]
 }

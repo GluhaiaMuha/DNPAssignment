@@ -1,8 +1,69 @@
 ﻿@page "/PostsPage"
-@attribute [Authorize]
-<h3>PostsPage</h3>
+@using global::Shared.Models
+@using HTTPClients.ClientInterfaces
+@inject IPostsService postService
+@inject NavigationManager navMgr
+@* @attribute [Authorize] *@
+
+<h3>Posts Page</h3>
+<div>
+    <input class="button" type="button" @onclick="LoadPosts" value="Load"/>
+</div>
+
+@if (!string.IsNullOrEmpty(errormsg))
+{
+    <div>
+        <span>@errormsg</span>
+    </div>
+}
+
+else if (!posts.Any())
+{
+    <p>No Posts to display. Sorry(((</p>
+}
+else
+{
+    <br/><br/><br/>
+    @foreach (var post in posts)
+    {
+        <div class="card">
+            <h2>@post.title</h2>
+            <h3>@post.userName.userName</h3>
+            <button>Click to see post</button>
+        </div> 
+    }
+}
 
 
 @code {
+    private IEnumerable<Post> posts = new List<Post>();
+    private string errormsg = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            posts = await postService.GetAllPostsAsync();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errormsg = e.Message;
+        }
+    }
     
+    public async Task LoadPosts()
+    {
+        try
+        {
+            posts = await postService.GetAllPostsAsync();
+            Console.WriteLine(posts);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errormsg = e.Message;
+        }
+    }
+
 }

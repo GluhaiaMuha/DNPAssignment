@@ -1,0 +1,85 @@
+﻿@page "/RegisterClientPage"
+
+@using global::Shared.Models
+@using BlazorWASM.Auth
+@inject IAuthService authService
+@inject NavigationManager NavManager
+<h3>RegisterClientPage</h3>
+
+<div class="container">
+  <label><b>Username</b></label>
+  <input type="text" @bind="userName" placeholder="Enter Username" required>
+
+  <label><b>Password</b></label>
+  <input type="password" @bind="password" placeholder="Choose a Password">
+
+  <button @onclick="RegisterUsers" class="acceptbtn">Register</button>
+  
+  <span style="color: red">@errorMessage</span>
+</div>
+
+@code {
+  private String userName = "";
+  private String password = "";
+  string errorMessage = "";
+
+
+  private async Task RegisterUsers()
+  {
+    errorMessage = "";
+
+    var User = new User
+    {
+      userName = userName,
+      password = password
+    };
+    
+    try
+    {
+      await authService.RegisterAsync(User);
+      await Task.Delay(200);
+      NavManager.NavigateTo("/UserLogin");
+    }
+    catch (Exception e)
+    {
+      errorMessage = e.Message;
+      Console.WriteLine(e);
+    }
+  }
+
+}
+
+<style>
+form {
+  border: 3px solid #f1f1f1;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+}
+</style>

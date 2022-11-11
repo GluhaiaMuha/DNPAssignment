@@ -1,0 +1,15 @@
+D:\VIA\DNP1\DNPAssignment\HTTPClients\bin\Debug\net6.0\HTTPClients.deps.json
+D:\VIA\DNP1\DNPAssignment\HTTPClients\bin\Debug\net6.0\HTTPClients.dll
+D:\VIA\DNP1\DNPAssignment\HTTPClients\bin\Debug\net6.0\HTTPClients.pdb
+D:\VIA\DNP1\DNPAssignment\HTTPClients\bin\Debug\net6.0\Shared.dll
+D:\VIA\DNP1\DNPAssignment\HTTPClients\bin\Debug\net6.0\Shared.pdb
+D:\VIA\DNP1\DNPAssignment\HTTPClients\obj\Debug\net6.0\HTTPClients.csproj.AssemblyReference.cache
+D:\VIA\DNP1\DNPAssignment\HTTPClients\obj\Debug\net6.0\HTTPClients.GeneratedMSBuildEditorConfig.editorconfig
+D:\VIA\DNP1\DNPAssignment\HTTPClients\obj\Debug\net6.0\HTTPClients.AssemblyInfoInputs.cache
+D:\VIA\DNP1\DNPAssignment\HTTPClients\obj\Debug\net6.0\HTTPClients.AssemblyInfo.cs
+D:\VIA\DNP1\DNPAssignment\HTTPClients\obj\Debug\net6.0\HTTPClients.csproj.CoreCompileInputs.cache
+D:\VIA\DNP1\DNPAssignment\HTTPClients\obj\Debug\net6.0\HTTPClients.csproj.CopyComplete
+D:\VIA\DNP1\DNPAssignment\HTTPClients\obj\Debug\net6.0\HTTPClients.dll
+D:\VIA\DNP1\DNPAssignment\HTTPClients\obj\Debug\net6.0\refint\HTTPClients.dll
+D:\VIA\DNP1\DNPAssignment\HTTPClients\obj\Debug\net6.0\HTTPClients.pdb
+D:\VIA\DNP1\DNPAssignment\HTTPClients\obj\Debug\net6.0\ref\HTTPClients.dll

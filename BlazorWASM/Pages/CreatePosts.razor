@@ -47,7 +47,7 @@
 
         try
         {
-            Post post = await postService.CreatePostAsync(new PostCreationDTO(title, body, username));
+            Post post = await postService.CreateAsync(new PostCreationDTO(title, body, username));
             Console.WriteLine("Message created");
             title = "";
             body = "";

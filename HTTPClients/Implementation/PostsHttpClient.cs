@@ -15,7 +15,7 @@ public class PostsHttpClient : IPostsService
         this.client = client;
     }
 
-    public async Task<Post> CreatePostAsync(PostCreationDTO dto)
+    public async Task<Post> CreateAsync(PostCreationDTO dto)
     {
 
         HttpResponseMessage response = await client.PostAsJsonAsync("/posts", dto);

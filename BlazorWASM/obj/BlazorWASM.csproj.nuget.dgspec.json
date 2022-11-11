@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\catal\\Desktop\\DNPAssignment\\BlazorWASM\\BlazorWASM.csproj": {}
+    "D:\\VIA\\DNP1\\DNPAssignment\\BlazorWASM\\BlazorWASM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\catal\\Desktop\\DNPAssignment\\BlazorWASM\\BlazorWASM.csproj": {
+    "D:\\VIA\\DNP1\\DNPAssignment\\BlazorWASM\\BlazorWASM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\catal\\Desktop\\DNPAssignment\\BlazorWASM\\BlazorWASM.csproj",
+        "projectUniqueName": "D:\\VIA\\DNP1\\DNPAssignment\\BlazorWASM\\BlazorWASM.csproj",
         "projectName": "BlazorWASM",
-        "projectPath": "C:\\Users\\catal\\Desktop\\DNPAssignment\\BlazorWASM\\BlazorWASM.csproj",
-        "packagesPath": "C:\\Users\\catal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\catal\\Desktop\\DNPAssignment\\BlazorWASM\\obj\\",
+        "projectPath": "D:\\VIA\\DNP1\\DNPAssignment\\BlazorWASM\\BlazorWASM.csproj",
+        "packagesPath": "C:\\Users\\mariu\\.nuget\\packages\\",
+        "outputPath": "D:\\VIA\\DNP1\\DNPAssignment\\BlazorWASM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\catal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mariu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\catal\\Desktop\\DNPAssignment\\HTTPClients\\HTTPClients.csproj": {
-                "projectPath": "C:\\Users\\catal\\Desktop\\DNPAssignment\\HTTPClients\\HTTPClients.csproj"
+              "D:\\VIA\\DNP1\\DNPAssignment\\HTTPClients\\HTTPClients.csproj": {
+                "projectPath": "D:\\VIA\\DNP1\\DNPAssignment\\HTTPClients\\HTTPClients.csproj"
               },
-              "C:\\Users\\catal\\Desktop\\DNPAssignment\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\catal\\Desktop\\DNPAssignment\\Shared\\Shared.csproj"
+              "D:\\VIA\\DNP1\\DNPAssignment\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\VIA\\DNP1\\DNPAssignment\\Shared\\Shared.csproj"
               }
             }
           }
@@ -73,7 +73,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.11, 6.0.11]"
+              "version": "[6.0.8, 6.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -90,17 +90,17 @@
         }
       }
     },
-    "C:\\Users\\catal\\Desktop\\DNPAssignment\\HTTPClients\\HTTPClients.csproj": {
+    "D:\\VIA\\DNP1\\DNPAssignment\\HTTPClients\\HTTPClients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\catal\\Desktop\\DNPAssignment\\HTTPClients\\HTTPClients.csproj",
+        "projectUniqueName": "D:\\VIA\\DNP1\\DNPAssignment\\HTTPClients\\HTTPClients.csproj",
         "projectName": "HTTPClients",
-        "projectPath": "C:\\Users\\catal\\Desktop\\DNPAssignment\\HTTPClients\\HTTPClients.csproj",
-        "packagesPath": "C:\\Users\\catal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\catal\\Desktop\\DNPAssignment\\HTTPClients\\obj\\",
+        "projectPath": "D:\\VIA\\DNP1\\DNPAssignment\\HTTPClients\\HTTPClients.csproj",
+        "packagesPath": "C:\\Users\\mariu\\.nuget\\packages\\",
+        "outputPath": "D:\\VIA\\DNP1\\DNPAssignment\\HTTPClients\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\catal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mariu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -112,8 +112,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\catal\\Desktop\\DNPAssignment\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\catal\\Desktop\\DNPAssignment\\Shared\\Shared.csproj"
+              "D:\\VIA\\DNP1\\DNPAssignment\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\VIA\\DNP1\\DNPAssignment\\Shared\\Shared.csproj"
               }
             }
           }
@@ -143,21 +143,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\catal\\Desktop\\DNPAssignment\\Shared\\Shared.csproj": {
+    "D:\\VIA\\DNP1\\DNPAssignment\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\catal\\Desktop\\DNPAssignment\\Shared\\Shared.csproj",
+        "projectUniqueName": "D:\\VIA\\DNP1\\DNPAssignment\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\catal\\Desktop\\DNPAssignment\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\catal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\catal\\Desktop\\DNPAssignment\\Shared\\obj\\",
+        "projectPath": "D:\\VIA\\DNP1\\DNPAssignment\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\mariu\\.nuget\\packages\\",
+        "outputPath": "D:\\VIA\\DNP1\\DNPAssignment\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\catal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mariu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -196,7 +196,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

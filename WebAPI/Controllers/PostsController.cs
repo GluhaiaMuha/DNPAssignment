@@ -31,18 +31,12 @@ public class PostsController : ControllerBase
         }
     }
 
-    [HttpGet("{id:int}")]
-    public async Task<ActionResult<Post>> GetPostById([FromRoute] int id)
+    [HttpGet]
+    public async Task<ActionResult<Post>> GetPosts()
     {
-        try
-        {
-            Post? post = await postLogic.GetPostByIdAsync(id);
-            return Ok(post);
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            return StatusCode(500, e.Message);
-        }
+        var posts = await postLogic.GetAllPosts();
+        return Ok(posts);
     }
+    
+
 }

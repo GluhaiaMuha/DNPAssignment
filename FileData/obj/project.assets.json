@@ -46,19 +46,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mariu\\.nuget\\packages\\": {}
+    "C:\\Users\\catal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VIA\\DNP1\\DNPAssignment\\FileData\\FileData.csproj",
+      "projectUniqueName": "C:\\Users\\catal\\Desktop\\DNPAssignment\\FileData\\FileData.csproj",
       "projectName": "FileData",
-      "projectPath": "D:\\VIA\\DNP1\\DNPAssignment\\FileData\\FileData.csproj",
-      "packagesPath": "C:\\Users\\mariu\\.nuget\\packages\\",
-      "outputPath": "D:\\VIA\\DNP1\\DNPAssignment\\FileData\\obj\\",
+      "projectPath": "C:\\Users\\catal\\Desktop\\DNPAssignment\\FileData\\FileData.csproj",
+      "packagesPath": "C:\\Users\\catal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\catal\\Desktop\\DNPAssignment\\FileData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mariu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\catal\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -70,11 +70,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\VIA\\DNP1\\DNPAssignment\\Application\\Application.csproj": {
-              "projectPath": "D:\\VIA\\DNP1\\DNPAssignment\\Application\\Application.csproj"
+            "C:\\Users\\catal\\Desktop\\DNPAssignment\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\catal\\Desktop\\DNPAssignment\\Application\\Application.csproj"
             },
-            "D:\\VIA\\DNP1\\DNPAssignment\\Shared\\Shared.csproj": {
-              "projectPath": "D:\\VIA\\DNP1\\DNPAssignment\\Shared\\Shared.csproj"
+            "C:\\Users\\catal\\Desktop\\DNPAssignment\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\catal\\Desktop\\DNPAssignment\\Shared\\Shared.csproj"
             }
           }
         }
@@ -104,7 +104,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

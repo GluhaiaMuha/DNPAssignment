@@ -6,9 +6,6 @@
 @* @attribute [Authorize] *@
 
 <h3>Posts Page</h3>
-<div>
-    <input class="button" type="button" @onclick="LoadPosts" value="Load"/>
-</div>
 
 @if (!string.IsNullOrEmpty(errormsg))
 {
@@ -36,6 +33,12 @@ else
 
 
 @code {
+    [CascadingParameter]
+    private Task<AuthenticationState> AuthenticationStateTask { get; set; }
+    [Parameter]
+    public int Id { get; set; }
+
+    private Post post { get; set; }
     private IEnumerable<Post> posts = new List<Post>();
     private string errormsg = "";
 
@@ -52,18 +55,4 @@ else
         }
     }
     
-    public async Task LoadPosts()
-    {
-        try
-        {
-            posts = await postService.GetAllPostsAsync();
-            Console.WriteLine(posts);
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            errormsg = e.Message;
-        }
-    }
-
 }

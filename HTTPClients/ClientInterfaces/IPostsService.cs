@@ -9,5 +9,9 @@ public interface IPostsService
     Task<Post> GetPostByIdAsync(int id);
     Task<IEnumerable<Post>> GetAllPostsAsync();
     
+    Task<IEnumerable<Post>> GetAsync();
+    
+    
+    
 
 }

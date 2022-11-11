@@ -11,53 +11,53 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BlazorWASM
 build_property.RootNamespace = BlazorWASM
-build_property.ProjectDir = D:\VIA\DNP1\DNPAssignment\BlazorWASM\
+build_property.ProjectDir = C:\Users\catal\Desktop\DNPAssignment\BlazorWASM\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\VIA\DNP1\DNPAssignment\BlazorWASM
+build_property.MSBuildProjectDirectory = C:\Users\catal\Desktop\DNPAssignment\BlazorWASM
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/VIA/DNP1/DNPAssignment/BlazorWASM/App.razor]
+[C:/Users/catal/Desktop/DNPAssignment/BlazorWASM/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA/DNP1/DNPAssignment/BlazorWASM/Pages/CreatePosts.razor]
+[C:/Users/catal/Desktop/DNPAssignment/BlazorWASM/Pages/CreatePosts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA/DNP1/DNPAssignment/BlazorWASM/Pages/Index.razor]
+[C:/Users/catal/Desktop/DNPAssignment/BlazorWASM/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA/DNP1/DNPAssignment/BlazorWASM/Pages/LoginButtons.razor]
+[C:/Users/catal/Desktop/DNPAssignment/BlazorWASM/Pages/LoginButtons.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5CdXR0b25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA/DNP1/DNPAssignment/BlazorWASM/Pages/PostsPage.razor]
+[C:/Users/catal/Desktop/DNPAssignment/BlazorWASM/Pages/PostsPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdHNQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA/DNP1/DNPAssignment/BlazorWASM/Pages/RegisterClientPage.razor]
+[C:/Users/catal/Desktop/DNPAssignment/BlazorWASM/Pages/RegisterClientPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXJDbGllbnRQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA/DNP1/DNPAssignment/BlazorWASM/Pages/UserLogin.razor]
+[C:/Users/catal/Desktop/DNPAssignment/BlazorWASM/Pages/UserLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckxvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA/DNP1/DNPAssignment/BlazorWASM/Shared/SurveyPrompt.razor]
+[C:/Users/catal/Desktop/DNPAssignment/BlazorWASM/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA/DNP1/DNPAssignment/BlazorWASM/_Imports.razor]
+[C:/Users/catal/Desktop/DNPAssignment/BlazorWASM/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA/DNP1/DNPAssignment/BlazorWASM/Shared/MainLayout.razor]
+[C:/Users/catal/Desktop/DNPAssignment/BlazorWASM/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-jk00ermrez
 
-[D:/VIA/DNP1/DNPAssignment/BlazorWASM/Shared/NavMenu.razor]
+[C:/Users/catal/Desktop/DNPAssignment/BlazorWASM/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-69rflur3ak

@@ -17,6 +17,7 @@ public class PostsHttpClient : IPostsService
 
     public async Task<Post> CreatePostAsync(PostCreationDTO dto)
     {
+
         HttpResponseMessage response = await client.PostAsJsonAsync("/posts", dto);
         string result = await response.Content.ReadAsStringAsync();
         
@@ -64,5 +65,22 @@ public class PostsHttpClient : IPostsService
             PropertyNameCaseInsensitive = true
         })!;
         return posts;
+    }
+
+    public async Task<IEnumerable<Post>> GetAsync()
+    {
+        HttpResponseMessage response = await client.GetAsync("/posts");
+        string result = await response.Content.ReadAsStringAsync();
+        if (!response.IsSuccessStatusCode)
+        {
+            throw new Exception(result);
+        }
+
+        var post = JsonSerializer.Deserialize<IEnumerable<Post>>(result, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        })!;
+        
+        return post;
     }
 }

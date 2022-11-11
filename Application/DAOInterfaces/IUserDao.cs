@@ -6,5 +6,5 @@ namespace Application.DAOInterfaces;
 public interface IUserDao
 {
     public Task<UserCreationDTO> CreateUser(User user);
-    public Task<User?> GetByUsername(String username);
+    public Task<User?> GetByUsername(string username);
 }

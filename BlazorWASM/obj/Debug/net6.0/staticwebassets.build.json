@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jhGn8hWcw7RTfwDrrmhql0Dg72TaomM6oX6E9rr+A+w=",
+  "Hash": "RbSRCnj0S6rRqrbBllHe3AYx+IzKD4ykY/pBaP5mE6o=",
   "Source": "BlazorWASM",
   "BasePath": "/",
   "Mode": "Root",
@@ -7240,6 +7240,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-192.png"
+    },
+    {
+      "Identity": "D:\\VIA\\DNP1\\DNPAssignment\\BlazorWASM\\wwwroot\\img\\Login.png",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VIA\\DNP1\\DNPAssignment\\BlazorWASM\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/Login.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Login.png"
+    },
+    {
+      "Identity": "D:\\VIA\\DNP1\\DNPAssignment\\BlazorWASM\\wwwroot\\img\\Logout.png",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VIA\\DNP1\\DNPAssignment\\BlazorWASM\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/Logout.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logout.png"
     },
     {
       "Identity": "D:\\VIA\\DNP1\\DNPAssignment\\BlazorWASM\\wwwroot\\index.html",

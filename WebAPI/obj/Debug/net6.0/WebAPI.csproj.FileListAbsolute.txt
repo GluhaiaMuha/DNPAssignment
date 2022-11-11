@@ -38,3 +38,4 @@ D:\VIA\DNP1\DNPAssignment\WebAPI\obj\Debug\net6.0\refint\WebAPI.dll
 D:\VIA\DNP1\DNPAssignment\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 D:\VIA\DNP1\DNPAssignment\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 D:\VIA\DNP1\DNPAssignment\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+D:\VIA\DNP1\DNPAssignment\WebAPI\bin\Debug\net6.0\data.json

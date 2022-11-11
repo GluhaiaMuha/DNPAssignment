@@ -2,8 +2,8 @@
 
 public class User
 {
-    public String userName { get; set; }
-    public String password { get; set; }
+    public String? userName { get; set; }
+    public String? password { get; set; }
 
     public User()
     {

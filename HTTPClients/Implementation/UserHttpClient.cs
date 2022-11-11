@@ -20,7 +20,7 @@ public class UserHttpClient : IUserService
         String userAsJson = JsonSerializer.Serialize(dto);
         StringContent content = new(userAsJson, Encoding.UTF8, "application/json");
 
-        HttpResponseMessage response = await client.PostAsync("/users/login", content);
+        HttpResponseMessage response = await client.PostAsync("/Users/login", content);
         String responseContent = await response.Content.ReadAsStringAsync();
 
         if (!response.IsSuccessStatusCode)
@@ -35,7 +35,7 @@ public class UserHttpClient : IUserService
         String userAsJson = JsonSerializer.Serialize(user);
         StringContent content = new StringContent(userAsJson, Encoding.UTF8, "application/json");
         
-        HttpResponseMessage response = await client.PostAsync("/users/register", content);
+        HttpResponseMessage response = await client.PostAsync("/Users/register", content);
         String responseContent = await response.Content.ReadAsStringAsync();
 
         if (!response.IsSuccessStatusCode)

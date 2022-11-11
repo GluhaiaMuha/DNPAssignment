@@ -20,6 +20,9 @@ builder.Services.AddScoped<FileContext>();
 builder.Services.AddScoped<IUserDao,UserDaoImpl>();
 builder.Services.AddScoped<IUserLogic,UserLogic>();
 
+builder.Services.AddScoped<IPostDao, PostsDaoImpl>();
+builder.Services.AddScoped<IPostLogic, PostLogic>();
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
     options.RequireHttpsMetadata = false;

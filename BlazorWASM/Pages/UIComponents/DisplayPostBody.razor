@@ -1,0 +1,33 @@
+﻿@namespace UIComponents
+
+<div class="card">
+  <a href="/posts/@Id">
+  <div class="container">
+    <h4>Title: @Title</h4>
+    <h5>Username: @Username</h5>
+  </div>
+  </a>
+</div> 
+
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    [Parameter]
+    public string? Username { get; set; }
+    [Parameter]
+    public string? Title { get; set; }
+}
+
+<style>
+
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 20px 1fr;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    
+}
+</style>

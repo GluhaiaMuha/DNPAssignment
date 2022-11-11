@@ -1,6 +1,7 @@
 ﻿@page "/PostsPage"
 @using global::Shared.Models
 @using HTTPClients.ClientInterfaces
+@using UIComponents
 @inject IPostsService postService
 @inject NavigationManager navMgr
 @inject IJSRuntime JsRuntime
@@ -21,14 +22,10 @@ else if (!posts.Any())
 }
 else
 {
-    <br/><br/><br/>
     @foreach (var post in posts)
     {
-        <div class="card">
-            <h1>@post.title</h1>
-            <h3>@post.userName.userName</h3>
-            <button>Click to see post</button>
-        </div> 
+        <DisplayPostBody Id="@post.postId" Title="@post.title" Username="@post.userName.userName"></DisplayPostBody>
+        <br/>                                                                                         
     }
 }
 

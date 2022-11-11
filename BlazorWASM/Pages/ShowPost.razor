@@ -1,0 +1,54 @@
+﻿@page "/posts/{id:int}"
+@using HTTPClients.ClientInterfaces
+@using global::Shared.Models
+@using System.Security.Claims
+@inject IPostsService postService
+
+
+@if (post != null){
+    <div class="main">
+        <div class="column">
+            <span class="title"><h3>@post.title</h3></span>
+            <textarea readonly>@post.body</textarea>
+        </div>
+    </div>
+    <span style="color: red">@errorMsg</span>
+}
+else
+{
+    <span>Post could not be found</span>
+}
+
+@code {
+    [CascadingParameter]
+    private Task<AuthenticationState> AuthenticationStateTask { get; set; }
+    [Parameter]
+    public int Id { get; set; }
+    private Post post { get; set; }
+    private string? Username { get; set; }
+    private string errorMsg = "";
+    
+    protected override async Task OnInitializedAsync()
+    {
+        errorMsg = "";
+        try
+        {
+            post = await postService.GetPostByIdAsync(Id);
+
+            var authState = await AuthenticationStateTask;
+            ClaimsPrincipal principal = authState.User;
+            Username = (from claim in principal.Claims where claim.Type == "Username" select claim.Value).FirstOrDefault();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errorMsg = e.Message;
+        }
+    }
+}
+
+<style>
+    .main{
+    border-style: solid;
+    }
+</style>

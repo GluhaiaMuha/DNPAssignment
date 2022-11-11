@@ -803,9 +803,7 @@ D:\VIA\DNP1\DNPAssignment\BlazorWASM\obj\Debug\net6.0\build-gz\pa2vSBa7.gz
 D:\VIA\DNP1\DNPAssignment\BlazorWASM\obj\Debug\net6.0\build-gz\Uymf6uuz.gz
 D:\VIA\DNP1\DNPAssignment\BlazorWASM\obj\Debug\net6.0\build-gz\xg7v3Zgh.gz
 D:\VIA\DNP1\DNPAssignment\BlazorWASM\obj\Debug\net6.0\build-gz\8Z9kPMKR.gz
-D:\VIA\DNP1\DNPAssignment\BlazorWASM\obj\Debug\net6.0\build-gz\2Yy7Not+.gz
 D:\VIA\DNP1\DNPAssignment\BlazorWASM\obj\Debug\net6.0\build-gz\KXZd8+ku.gz
-D:\VIA\DNP1\DNPAssignment\BlazorWASM\obj\Debug\net6.0\build-gz\KB4r3P8B.gz
 D:\VIA\DNP1\DNPAssignment\BlazorWASM\obj\Debug\net6.0\build-gz\aJs9AaUK.gz
 D:\VIA\DNP1\DNPAssignment\BlazorWASM\obj\Debug\net6.0\build-gz\9n+Xninv.gz
 D:\VIA\DNP1\DNPAssignment\BlazorWASM\obj\Debug\net6.0\build-gz\uOlN8U9K.gz
@@ -1668,3 +1666,5 @@ C:\Users\catal\Desktop\DNPAssignment\BlazorWASM\obj\Debug\net6.0\BlazorWASM.dll
 C:\Users\catal\Desktop\DNPAssignment\BlazorWASM\obj\Debug\net6.0\refint\BlazorWASM.dll
 C:\Users\catal\Desktop\DNPAssignment\BlazorWASM\obj\Debug\net6.0\BlazorWASM.pdb
 C:\Users\catal\Desktop\DNPAssignment\BlazorWASM\obj\Debug\net6.0\ref\BlazorWASM.dll
+D:\VIA\DNP1\DNPAssignment\BlazorWASM\obj\Debug\net6.0\build-gz\2Yy7Not+.gz
+D:\VIA\DNP1\DNPAssignment\BlazorWASM\obj\Debug\net6.0\build-gz\KB4r3P8B.gz
